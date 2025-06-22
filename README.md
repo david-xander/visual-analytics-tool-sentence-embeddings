@@ -35,7 +35,7 @@ To set up the project, you will need a typical Python environment.
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/david-xander/visual-analytics-tool-sentence-embeddings
-    cd your-repository-name
+    cd visual-analytics-tool-sentence-embeddings
     ```
 2.  **Install dependencies:**
     ```bash
