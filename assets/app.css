@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background-color: #eaeaea;
+    letter-spacing: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: hotpink
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 2560px;
+    }
+}
+.app-header {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: thin lightgrey solid;
+}
+.app-header .app-header--title {
+    font-size: 22px;
+    padding-left: 5px;
+}
+.logo{
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Lucida Grande';
+}
+.bg-primary{
+    background-color: #333;
+}
+
+table.table-primary.table-striped th{
+    padding:0.5rem;
+}
+table.table-primary.table-striped td{
+    padding:0.5rem;
+}
+
+table.table-warning.table-striped th{
+    padding:0.5rem;
+}
+table.table-warning.table-striped td{
+    padding:0.5rem;
+}
+
+H4 span.badge.bg-info{
+    color: #FFF;
+    font-weight: bold;
+}
+
+div.Select-value{
+    font-size: 0.9em;
+}
+
+nav.navbar{
+    letter-spacing: 1px;
+    --bs-navbar-padding-y: 1em;
+}
+
+.row{
+    --bs-gutter-x: 0.8rem;
+}
+
+br {
+    display: block;
+    margin: 0.4rem 0;
+ }
